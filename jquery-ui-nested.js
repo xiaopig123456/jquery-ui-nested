@@ -106,6 +106,9 @@
 			}
 		},
 
+		destroy:function(){
+			this._destroy();
+		},
 		_destroy: function() {
 			this.element
 				.removeData("mjs-nestedSortable")

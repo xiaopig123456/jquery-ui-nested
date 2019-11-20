@@ -1,7 +1,7 @@
 /*
  * jQuery UI Nested Sortable
  * v 2.1a / 2016-02-04
- * https://github.com/ilikenwf/nestedSortable
+ * https://github.com/xiaopig123456/jquery-ui-nested
  *
  * Depends on:
  *	 jquery.ui.sortable.js 1.10+
@@ -18,7 +18,7 @@
 		// AMD. Register as an anonymous module.
 		define([
 			"jquery",
-			"jquery-ui/ui/sortable"
+			"jquery-ui/ui/widgets/sortable"
 		], factory );
 	} else {
 

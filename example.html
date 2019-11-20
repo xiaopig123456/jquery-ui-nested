@@ -173,17 +173,18 @@
 			color: #c33;
 		}
     </style>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="//cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
 	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="jquery.mjs.nestedSortable.js"></script>
+	<script type="text/javascript" src="jquery-ui-nested.js"></script>
 	
 	<script>
-		$().ready(function(){
+		$(document).ready(function(){
 			var ns = $('ol.sortable').nestedSortable({
 				forcePlaceholderSize: true,
 				handle: 'div',
 				helper:	'clone',
+				listType: "ol",
 				items: 'li',
 				opacity: .6,
 				placeholder: 'placeholder',
@@ -269,16 +270,16 @@
 
 <body>
     <header>
-        <h1>nestedSortable jQuery Plugin</h1>
+        <h1>jquery-ui-nested jQuery Plugin</h1>
 
         <h2>2.0</h2>
     </header>
 
     <section>
-        <p>This is the demo page for the nestedSortable jQuery plugin.</p>
+        <p>This is the demo page for the jquery-ui-nested jQuery plugin.</p>
 
         <p><strong>Follow the development, read the docs and download the
-        latest version directly from the <a href="https://github.com/ilikenwf/nestedSortable">GitHub
+        latest version directly from the <a href="https://github.com/xiaopig123456/jquery-ui-nested">GitHub
         page</a>.</strong></p>
     </section><!-- END section -->
 
